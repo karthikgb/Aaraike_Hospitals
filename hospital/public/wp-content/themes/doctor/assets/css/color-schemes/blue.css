@@ -1,0 +1,335 @@
+/*  
+	## Blue: #3598db
+	-----------------
+ */
+
+/* - Color */
+.entry-content .page-links > a,
+.entry-content .page-links > span:not(.screen-reader-text):not(.page-links-title),
+.single-post .entry-categories a:hover,
+.single-post .entry-tags a:hover,
+article[class*="type-"].no-post-thumbnail .entry-cover .post-date a:hover,
+.widget_recent_comments ul li a:hover,
+article[class*="type-"] .entry-meta .post-time > span i,
+article.format-audio[class*="type-"] .entry-cover .post-date a:hover, 
+article.format-video[class*="type-"] .entry-cover .post-date a:hover, 
+article.format-gallery[class*="type-"] .entry-cover .post-date a:hover,
+.header_s .menu-setting-info a,
+.contact-us .contact-form .wpcf7-form .wpcf7-submit:hover,
+.comment-list .reply a:hover,
+.widget_info p a:hover,
+.widget-area .footer-social li a:hover,
+.widget .tab-content .latest-content h5 > a:hover,
+html[dir="rtl"] .carrier-section .panel-body .responsibilities-list li::after,
+.pagination .nav-links .page-numbers,
+.carrier-section .panel-body .responsibilities-list li::after,
+.page-banner .breadcrumb a:hover span,
+.widget_meta ul li:hover a,
+.footer-main .wpcf7-form .wpcf7-form-control.wpcf7-submit:hover,
+article[class*="type-"] .entry-header h3.entry-title a:hover,
+article[class*="type-"] .latest-news-content > a.read-more:hover,
+article[class*="type-"] .entry-meta a > i,
+.services-section .medical-box:hover i,
+.extra-services .extra-box:hover i,
+.department-section .department-img-block a:hover,
+article[class*="type-"] .entry-cover .post-date a:hover,
+.breadcrumb a:hover span,
+.widget_info p a:hover,
+.footer-social li a:hover,
+.footer-main .widget_workinghours::after,
+.widget .tab-content .latest-content span a,
+.widget ul li > a:hover,
+.widget_pages > ul li.current_page_item a,
+.widget_calendar #next a:hover,
+.widget_calendar #prev a:hover,
+.footer-main .widget_workinghours::before,
+.header_default .ownavigation .navbar-nav > .active > a, 
+.header_default .ownavigation .navbar-nav > .active > a:focus, 
+.header_default .ownavigation .navbar-nav > .active > a:hover, 
+.header_default .ownavigation .navbar-nav > li:hover > a, 
+.header_default .ownavigation .navbar-nav > li a:hover,
+.header_s a.phone-call i,
+#revslider_home .background-block .title-txt,
+.type-post .latest-news-content > a.read-more:hover
+#revslider_home .learn-btn .button-txt i,
+.appoinment-form h5 i,
+.type-post .entry-meta a > i,
+.type-post .latest-news-content > a.read-more:hover,
+.offer-section .offer-box > a:hover,
+.department-section .show-all > a,
+.footer-main .footer-social li a:hover,
+.footer-main .widget_workinghours > span,
+.footer-main .form-group button:hover,
+.carrier-section .panel-body .responsibilities-list li::before,
+.ow-pagination .pagination > li:first-child > a, 
+.ow-pagination .pagination > li:last-child > a,
+.ow-pagination ul li a,
+.widget-area .latest-detail-tab .wc-tabs li a,
+.widget-area .tab-content .latest-content span a,
+.contact-us .contact-form .form-group button:hover,
+.contact-us .contact-call-box p > i ,
+.extra-services .extra-box > a:hover,
+.type-post .entry-header h3.entry-title a:hover {
+	color: #CA1011; 
+}
+
+.carrier-section .panel-title a::after {
+	background-color: transparent;
+}
+
+#revslider_home .learn-btn {
+	background-image: url("../../images/slide-btn-bg-blue.png");
+}
+.header_s a.phone-call {
+	border-color: #3598db #3598db currentcolor;
+}
+
+/* - Border Color */
+.entry-content .page-links > a,
+.entry-content .page-links > span:not(.screen-reader-text):not(.page-links-title),
+.header_s20 .ownavigation .navbar-nav > li:last-child > a,
+.contact-us .contact-form .wpcf7-form .wpcf7-submit,
+.comment-list .reply a:hover,
+blockquote, 
+.entry-content blockquote,
+html[dir="rtl"] blockquote,
+html[dir="rtl"] .entry-content blockquote,
+article[class*="type-"] .latest-news-content > a.read-more,
+.appoinment-form .wpcf7-form .appointment_submit_icon,
+.pagination .nav-links .page-numbers,
+.widget .tab-content .latest-content > a > i,
+.widget_calendar #next a:hover,
+.widget_calendar #prev a:hover,
+.footer-main .widget_workinghours::before,
+.other-services .other-services-block:hover .services-block-icon::after, 
+.other-services .other-services-block:hover .services-block-icon::before,
+.appoinment-form,
+.appoinment-form .btn-submit,
+.type-post .latest-news-content > a.read-more,
+.department-section .show-all > a,
+.footer-main,
+.footer-main .widget_workinghours > span,
+.footer-main .widget_workinghours ul li,
+.ow-pagination ul li a,
+.widget-area .tab-content .latest-content > a > i,
+.widget-area .tagcloud a:hover,
+.contact-us .contact-form,
+.contact-us .contact-form .form-group button,
+.contact-us .contact-call-box p > i,
+.contact-us2 .contact-deatil .contact-call-box:hover {
+	border-color: #CA1011;
+}
+
+/* - Background Color */
+.header_s12:not(.header_s16) .ownavigation .navbar-nav > li > a::before,
+.entry-content .page-links a:hover,
+.entry-content .page-links > span:not(.screen-reader-text):not(.page-links-title):hover,
+.entry-content .page-links > span:not(.screen-reader-text):not(.page-links-title),
+article[class*="type-"] .entry-meta .post-time span:hover,
+.post-password-form input[type="submit"],
+.contact-us .contact-form .wpcf7-form .wpcf7-submit,
+.comment-form input[type="submit"],
+article[class*="type-"] .entry-meta a:hover,
+article[class*="type-"] .latest-news-content > a.read-more,
+.appoinment-form .wpcf7-form .appointment_submit_icon,
+.other-services-content > a::before,
+.pagination .nav-links .page-numbers:hover, 
+.pagination .nav-links .page-numbers:focus,
+.pagination .nav-links .page-numbers.current,
+.widget .latest-detail-tab .wc-tabs.nav-tabs > li.active > a,
+.widget .latest-detail-tab .wc-tabs.nav-tabs > li.active > a:focus,
+.widget .latest-detail-tab .wc-tabs.nav-tabs > li.active > a:hover, 
+.widget .latest-detail-tab .wc-tabs li.active a,
+.tagcloud a:hover,
+.widget_calendar tbody #today,
+.select_box::before,
+.header_s a.phone-call:hover,
+.header_s a.navbar-brand > i ,
+.ownavigation .mega-dropdown .mega-menu,
+.other-services .other-services-block:hover .services-block-icon::after, 
+.other-services .other-services-block:hover .services-block-icon::before,
+.other-services .other-services-block:hover .services-block-icon i,
+.appoinment-form .btn-submit,
+.gallery-section .portfolio-categories li a.active, 
+.gallery-section .portfolio-categories li a:hover, 
+.gallery-section .portfolio-categories li a:focus,
+.services-section .service-content a.learn-more,
+.services-section .service-content a.appointment:hover::before,
+.testimonial-section,
+.team-section .team-box h5,
+.type-post .entry-meta a:hover,
+.type-post .latest-news-content > a.read-more,
+.offer-section .offer-box,
+.department-section .department-header h5,
+.department-section .show-all > a::before, 
+.department-section .show-all > a::after,
+.department-section .show-all a:hover,
+.footer-main .widget_workinghours,
+.footer-main .form-group button,
+.footer-bottom,
+.about-section .about-content h5::after,
+.carrier-section .panel-title a::before,
+.carrier-section .panel-title a.collapsed,
+.carrier-section .panel-title a::before,
+.carrier-section .panel-title a,
+.widget-area .latest-detail-tab .wc-tabs.nav-tabs > li.active > a, 
+.widget-area .latest-detail-tab .wc-tabs.nav-tabs > li.active > a:focus, 
+.widget-area .latest-detail-tab .wc-tabs.nav-tabs > li.active > a:hover, 
+.widget-area .latest-detail-tab .wc-tabs li.active a,
+.widget-area .tagcloud a:hover,
+.widget_accordion .panel-title a::before,
+.widget_accordion .panel-title a,
+.footer-main .wpcf7-form .wpcf7-form-control.wpcf7-submit,
+.contact-us .contact-form .form-group button,
+.contact-us2 .contact-deatil .contact-call-box:hover,
+.extra-services .extra-box i,
+.tab-detail .services-tabs > li.active > a, 
+.tab-detail .services-tabs.nav-tabs > li.active > a:focus, 
+.tab-detail .services-tabs.nav-tabs > li.active > a:hover, 
+.tab-detail .services-tabs li.active a,
+.gallery-single-section .info-content h3::before {
+	background-color: #CA1011;
+}
+
+.error-block .page_search .searchform .btn.btn-default {
+	background-color: #3598db !important;
+}
+
+.header_s .top-header .call-info p > a::before {
+	color: #fff;
+}
+.header_s .top-header,
+.header_s1 .ownavigation .navbar-nav > .active > a::before, 
+.header_s1 .ownavigation .navbar-nav > .active > a:focus::before, 
+.header_s1 .ownavigation .navbar-nav > .active > a:hover::before, 
+.header_s1 .ownavigation .navbar-nav > li:hover > a::before, 
+.header_s1 .ownavigation .navbar-nav > li a:hover::before,
+.header_s .ownavigation .navbar-toggle,
+.header_s .ownavigation .ddl-switch,
+.header_s.header_s8.header_s9 .ownavigation {
+	background-color: #CA1011;
+}
+.header_s1 .ownavigation .navbar-nav > .active > a, 
+.header_s1 .ownavigation .navbar-nav > .active > a:focus, 
+.header_s1 .ownavigation .navbar-nav > .active > a:hover, 
+.header_s1 .ownavigation .navbar-nav > li:hover > a, 
+.header_s1 .ownavigation .navbar-nav > li a:hover,
+.header_s #slideit, 
+.header_s #closeit,
+.gallery-single-section .flex-direction-nav a.flex-prev::before,
+.gallery-single-section .flex-direction-nav a.flex-next::before {
+	color: #CA1011;
+}
+.header_s1 .ownavigation.navbar-fixed-top {
+	border-color: transparent;
+}
+.header_s .ownavigation ul li > .dropdown-menu {
+	background-color: #CA1011;
+}
+.header_s .ownavigation .navbar-nav li .dropdown-menu > li > a:hover,
+.header_s .ownavigation .mega-dropdown .mega-menu .dropdown-box ul li a:hover {
+	color: #333;
+}
+.header_s9 .top-header {
+	background-color: #fff;
+}
+.header_s.header_s9 .top-header .call-info p > a > i,
+.header_s.header_s9 .top-header .header-social li a,
+.header_s.header_s9 .top-header .call-info p > a:hover,
+.header_s15 .ownavigation .navbar-nav > li > a > i {
+	color: #CA1011;
+}
+.header_s20 .ownavigation .navbar-nav > li > a {
+	border-color: #3598db currentcolor #3598db #CA1011;
+}
+.ow-pagination .pagination > li:first-child > a:hover, 
+.ow-pagination .pagination > li:last-child > a:hover,
+.ow-pagination ul li a:hover {
+	background-color: #CA1011;
+}
+
+.header_default .ownavigation .navbar-nav > li > a::after {
+	color: #CA1011;
+}
+.testimonial-content {
+	background-color: #49a3df;
+}
+.services-section .service-content a.appointment {
+	background-color: #b7b7b7;
+}
+.testimonial-content > i img {
+	border: 10px solid rgba(73, 163, 223, 0.5);
+}
+.gallery-section .content-image-block::before {
+	background-color: rgba(145, 18, 19, 0.73);
+}
+.department-section .show-all > a {
+	background-color: transparent;
+}
+.footer-main .widget_workinghours ul li {
+	border-bottom-color: #49a3df;
+}
+#revslider_home .learn-btn .button-txt i {
+	border: 5px solid #49a3df;
+}
+#revslider_home .learn-btn .button-txt i {
+	color: #CA1011;
+}
+.carrier-section .panel-title a.collapsed::before,
+.widget_accordion .panel-title a.collapsed::before {
+	color: #49a3df;
+}
+.contact-us2 .contact-form {
+	border-color: #CA1011;
+}
+
+/* - max-width: 992 */
+@media (min-width: 992px) {
+	.header_s12 .ownavigation .navbar-nav > .active > a, 
+	.header_s12 .ownavigation .navbar-nav > .active > a:focus, 
+	.header_s12 .ownavigation .navbar-nav > .active > a:hover, 
+	.header_s12 .ownavigation .navbar-nav > li:hover > a, 
+	.header_s12 .ownavigation .navbar-nav > li a:hover ,
+	.header_s13 .ownavigation .navbar-nav > .active > a, 
+	.header_s13 .ownavigation .navbar-nav > .active > a:focus, 
+	.header_s13 .ownavigation .navbar-nav > .active > a:hover, 
+	.header_s13 .ownavigation .navbar-nav > li:hover > a, 
+	.header_s13 .ownavigation .navbar-nav > li a:hover {
+		background-color: #CA1011;
+	}
+	.header_s12 .ownavigation .navbar-nav > .active > a, 
+	.header_s12 .ownavigation .navbar-nav > .active > a:focus, 
+	.header_s12 .ownavigation .navbar-nav > .active > a:hover, 
+	.header_s12 .ownavigation .navbar-nav > li:hover > a, 
+	.header_s12 .ownavigation .navbar-nav > li a:hover,
+	.header_s13 .ownavigation .navbar-nav > .active > a, 
+	.header_s13 .ownavigation .navbar-nav > .active > a:focus, 
+	.header_s13 .ownavigation .navbar-nav > .active > a:hover, 
+	.header_s13 .ownavigation .navbar-nav > li:hover > a, 
+	.header_s13 .ownavigation .navbar-nav > li a:hover {
+		color: #fff;
+	}
+	.header_s14 .ownavigation .navbar-nav > .active > a, 
+	.header_s14 .ownavigation .navbar-nav > .active > a:focus, 
+	.header_s14 .ownavigation .navbar-nav > .active > a:hover, 
+	.header_s14 .ownavigation .navbar-nav > li:hover > a, 
+	.header_s14 .ownavigation .navbar-nav > li a:hover {
+		background-color: #fff;
+		border-color: #CA1011;
+		color: #7d7d7d;
+	}
+	.header_s20 .ownavigation .navbar-nav > li > a {
+		color: #CA1011;
+	}
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px){
+	.header_s .ownavigation ul li > .dropdown-menu {
+		background-color: transparent;
+	}
+	.header_s .ownavigation .navbar-nav li .dropdown-menu > li > a:hover,
+	.header_s .ownavigation .mega-dropdown .mega-menu .dropdown-box ul li a:hover {
+		color: #CA1011;
+	}
+}

@@ -1,0 +1,255 @@
+/*
+	[Table of contents]
+		## Site Loader
+*/
+
+/* ## Site Loader */
+.load-position .logo {
+	margin: 0 auto;
+	width: 150px;
+}
+.load-complete .ball-clip-rotate > div {
+	border-color: #00d2eb #00d2eb transparent;
+	background-color: #00d2eb;
+	margin: 0 auto;
+	display: block;
+	top: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.load-complete {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1031;
+}
+.load-complete .logo {
+	color: #4C4C4C;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.load-complete .load-position h6 {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+	font-weight: 400;
+	font-style: italic;
+}
+.load-complete .load-position {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 999;
+    right: 0;
+    margin-top: -100px;
+}
+.load-complete .loading {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+}
+.load-complete .loading-line {
+    position: absolute;
+    background: #eee;
+    width: 100%;
+    height: 2px;
+}
+.load-complete .loading-break {
+    position: absolute;
+    background: #059664;
+    width: 15px;
+    height: 2px;
+}
+.load-complete .loading-dot-1 {
+    -webkit-animation: loading 2s infinite;
+    -moz-animation: loading 2s infinite;
+    -ms-animation: loading 2s infinite;
+    -o-animation: loading 2s infinite;
+    animation: loading 2s infinite;
+}
+.load-complete .loading-dot-2 {
+    -webkit-animation: loading 2s 0.5s infinite;
+    -moz-animation: loading 2s 0.5s infinite;
+    -ms-animation: loading 2s 0.5s infinite;
+    -o-animation: loading 2s 0.5s infinite;
+    animation: loading 2s 0.5s infinite;
+}
+.load-complete .loading-dot-3 {
+    -webkit-animation: loading 2s 1s infinite;
+    -moz-animation: loading 2s 1s infinite;
+    -ms-animation: loading 2s 1s infinite;
+    -o-animation: loading 2s 1s infinite;
+    animation: loading 2s 1s infinite;
+}
+
+
+
+
+
+  
+  .pulse {
+    height: 100px;
+    width: 199px;
+    zoom: 2;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .pulse:after {
+    content: '';
+    display: block;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200px 100px" enable-background="new 0 0 200px 100px" xml:space="preserve"><polyline fill="none" stroke-width="3px" stroke="red" points="2.4,58.7 70.8,58.7 76.1,46.2 81.1,58.7 89.9,58.7 93.8,66.5 102.8,22.7 110.6,78.7 115.3,58.7 126.4,58.7 134.4,54.7 142.4,58.7 197.8,58.7 "/></svg>') 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-animation: 2s pulse linear infinite;
+    -moz-animation: 2s pulse linear infinite;
+    -o-animation: 2s pulse linear infinite;
+    animation: 2s pulse linear infinite;
+      clip: rect(0, 0, 100px, 0);
+  }
+  .pulse:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    top: 16px;
+    margin: auto;
+    height: 3px;
+  
+  }
+  
+  
+  @-webkit-keyframes pulse {
+    0% {
+      clip: rect(0, 0, 100px, 0);
+      opacity: 0.4;
+    }
+    4% {
+      clip: rect(0, 66.66667px, 100px, 0);
+      opacity: 0.6;
+    }
+    15% {
+      clip: rect(0, 133.33333px, 100px, 0);
+      opacity: 0.8;
+    }
+    20% {
+      clip: rect(0, 300px, 100px, 0);
+       opacity: 1;
+    }
+  
+    80% {
+      clip: rect(0, 300px, 100px, 0);
+       opacity:0;
+    }
+  
+    90% {
+      clip: rect(0, 300px, 100px, 0);
+      opacity: 0;
+    }
+  
+    100% {
+      clip: rect(0, 300px, 100px, 0);
+      opacity:0;
+   }
+  }
+  @keyframes pulse {
+    0% {
+      clip: rect(0, 0, 100px, 0);
+    }
+    4% {
+      clip: rect(0, 66.66667px, 100px, 0);
+    }
+    15% {
+      clip: rect(0, 133.33333px, 100px, 0);
+    }
+    20% {
+      clip: rect(0, 300px, 100px, 0);
+       opacity:1;
+    }
+  
+    80% {
+      clip: rect(0, 300px, 100px, 0);
+       opacity:0;
+    }
+  
+    90% {
+      opacity: 0;
+    }
+  
+    100% {
+      clip: rect(0, 300px, 100px, 0);
+      opacity:0;
+   }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes "loading" {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+@-moz-keyframes loading {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+@-webkit-keyframes "loading" {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+@-ms-keyframes "loading" {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+@-o-keyframes "loading" {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
